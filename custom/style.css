@@ -1,0 +1,313 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap");
+body {
+  background-color: black;
+  font-family: "Julius Sans One", sans-serif;
+}
+
+.header {
+  color: #d1d1d1;
+  font-weight: lighter;
+}
+
+.header .navbar-custom .nav-item.active .nav-link,
+.header .navbar-custom .nav-item:hover .nav-link {
+  color: #ffffff;
+}
+
+.header .navbar-custom .navbar-nav .nav-link {
+  color: white;
+  padding: 1rem 1rem;
+  font-size: 20px;
+}
+
+.header .nav-item {
+  margin-right: 10px;
+}
+
+.header .nav-item a {
+  display: inline-block;
+}
+
+.header .nav-item :hover {
+  text-decoration: underline;
+}
+
+.header .slash:after {
+  content: "/";
+  color: white;
+  display: inline;
+  font-weight: 700;
+}
+
+.header .navbar-toggler {
+  border-color: white;
+}
+
+.header .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.header .logo {
+  margin-top: 2.5%;
+  margin-left: 2%;
+}
+
+.header hr {
+  background-color: #aa4b0c;
+  height: 1.5px;
+  margin-top: 0px;
+  width: 96%;
+  margin-bottom: -10px;
+}
+
+.header .top {
+  margin-top: 1%;
+}
+
+.header .top li {
+  list-style: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 7px;
+}
+
+.homelogo {
+  margin-top: 4%;
+  margin-bottom: 1%;
+}
+
+/* end home page code */
+/*=============================================
+=            secomd page code            =
+=============================================*/
+.pages .logo {
+  margin-top: 1%;
+  margin-left: 2%;
+}
+
+.pages .mynav {
+  margin-top: 1%;
+}
+
+.second-page {
+  margin-top: 6%;
+}
+
+.second-page h1 {
+  color: white;
+}
+
+.second-page p {
+  margin-top: 12%;
+  color: white;
+}
+
+/*=====  End of second page  ======*/
+.third-page {
+  margin-top: 5%;
+}
+
+.third-page .top-data tr td {
+  color: #d1d1d1;
+  font-size: 8px;
+}
+
+.third-page .top-data tr .small {
+  padding-left: 20px;
+  font-size: 7px;
+}
+
+.third-page .price {
+  color: #d1d1d1;
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.third-page .bottom-data tr td {
+  color: #d1d1d1;
+  font-size: 8px;
+  padding-right: 6px;
+}
+
+.fourth-page {
+  color: #d1d1d1;
+}
+
+.fourth-page .padding-0 {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.fourth-page .container-fluid .row .col .CUMAU {
+  margin-top: 40px;
+}
+
+.fourth-page .container-fluid .row .col .AN {
+  margin-top: 15px;
+}
+
+.fourth-page .row .col-md-12 .CONT .para {
+  color: #afafaf;
+}
+
+.fourth-page .row .col-md-12 .CONT {
+  border: 1px solid #afafaf;
+  border-bottom: none;
+  color: #afafaf;
+  height: 32px;
+}
+
+.fourth-page .row .col-md-12 .CONT .bottom-bor {
+  border: 1px solid #afafaf;
+  width: 250px;
+  margin-left: 0;
+  margin-top: -20px;
+}
+
+.fourth-page .row .col-md-12 .LA {
+  text-align: center;
+  color: #afafaf;
+  margin-bottom: 0;
+}
+
+.fourth-page span {
+  font-size: 25px;
+  padding: 10px;
+}
+
+.fourth-page .float-left {
+  font-size: 24px;
+}
+
+/*=============================================
+=            fifth page            =
+=============================================*/
+.fifth-page {
+  color: #d1d1d1;
+}
+
+.fifth-page .row {
+  margin-top: 5%;
+}
+
+.fifth-page .row .col-md-3 p {
+  font-size: 24px;
+  padding-left: 40%;
+  margin-bottom: 0;
+}
+
+.fifth-page .row .col-md-3 .price {
+  padding-left: 0;
+  font-size: 14px;
+  padding-top: 10%;
+  border-bottom: 2px solid white;
+}
+
+.fifth-page .row .col-md-3 table {
+  padding-top: 10px;
+  display: inline-block;
+}
+
+.fifth-page .row .col-md-3 table tr td {
+  margin-right: 0;
+}
+
+.fifth-page .row .col-md-3 table tr .small {
+  font-size: 9px;
+  padding-left: 2%;
+}
+
+.fifth-page .row .col-md-3 table .s-row {
+  border-bottom: 2px solid white;
+}
+
+.fifth-page .row .col-md-3 .bottom-data {
+  border-right: 2px solid white;
+  margin-top: -7px;
+  margin-bottom: -7px;
+}
+
+.fifth-page .row .col-md-3 .bottom-data tr td {
+  font-size: 10px;
+}
+
+.fifth-page .progress {
+  margin-top: 8%;
+  height: 10px;
+  background-color: black;
+  border: 1px solid white;
+  margin-bottom: 3%;
+}
+
+.fifth-page .progress .progress-bar {
+  height: 10px;
+  background-color: green;
+}
+
+.fifth-page .avg {
+  padding-left: 10%;
+  font-size: 12px;
+}
+
+.fifth-page .first-table {
+  float: right;
+  margin-bottom: 6px;
+}
+
+/*=============================================
+=            footer code for pages            =
+=============================================*/
+footer {
+  margin-top: 5%;
+  margin-bottom: 30px;
+}
+
+footer span {
+  color: silver;
+  font-size: 19px;
+}
+
+footer p {
+  color: silver;
+  border-top: 1px solid silver;
+  border-left: 1px solid silver;
+}
+
+footer hr {
+  margin: 0;
+  background-color: silver;
+  margin-top: -16px;
+}
+
+@media (max-width: 768px) {
+  .slash {
+    display: none;
+  }
+  nav {
+    margin-top: -50px;
+  }
+  p {
+    text-align: justify;
+  }
+  .second-page h1 {
+    font-size: 27px;
+  }
+  .second-page p {
+    font-size: 14px;
+  }
+  .third-page {
+    text-align: center;
+  }
+  .fourth-page .padding-0 {
+    padding-right: 70px;
+    padding-left: 70px;
+  }
+  .fifth-page .box .next-box hr {
+    border: 2px solid #f1f1f1;
+    width: 273px;
+    margin-left: 50px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
